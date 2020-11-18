@@ -2,8 +2,10 @@
 
 
 def load_library(data)
- emot{}
+ final_hash={}
   
+  
+  final_hash
 end
     
     
