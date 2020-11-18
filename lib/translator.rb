@@ -4,7 +4,8 @@ require 'pry' # require modules here
 
 def load_library(data)
  final_hash={}
-  
+ 
+ binding.pry 
   
   final_hash
 end
