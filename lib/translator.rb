@@ -9,6 +9,7 @@ def load_library(data)
     final_hash[key]= {}
     final_hash[key][:english]=""
     final_hash[key][:japanese]=""
+    binding.pry
   end
  
   
