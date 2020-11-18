@@ -3,10 +3,12 @@ require 'pry' # require modules here
 
 
 def load_library(data)
- final_hash={}
+  final_hash={}
  
- YAML.load_file(data
- binding.pry 
+  YAML.load_file(data).each do |key, value|
+    binding.pry
+  end
+ 
   
   final_hash
 
