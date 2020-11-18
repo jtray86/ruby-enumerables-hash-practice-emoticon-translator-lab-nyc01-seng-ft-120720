@@ -5,7 +5,7 @@ require 'pry' # require modules here
 def load_library(data)
  final_hash={}
  
- 
+ YAML.load_file(data
  binding.pry 
   
   final_hash
