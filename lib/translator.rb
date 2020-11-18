@@ -17,7 +17,7 @@ end
 def get_english_meaning (path, emoticon)
   load_library(path).each do |key, value|
     binding.pry
-  final_hash[key][japanese][value] = final_hash[key]
+  final_hash[key][value[1]] = final_hash[key]
 end
 end
 
